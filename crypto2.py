@@ -1,5 +1,3 @@
-# prompt: modify the above code to use passwords instead of a key file and use KDF to generate the key from the passwords
-
 import os
 import sys
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
