@@ -1,5 +1,3 @@
-# prompt: modify the code above so that the salt is generated randomly as part of the encrypt function and prepended to the cyphertext. The decrypt function should extract the salt from the cyphertext
-
 import os
 import sys
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
